@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 4ec7ee9b88c7b134781cd299b5f3ba1b
+  - enabled: 1
+    path: Assets/Scenes/SecondMenu.unity
+    guid: 1c47ab9f00ec1a44da7bdae418d821a2
+  - enabled: 1
+    path: Assets/Scenes/destroyed_city.unity
+    guid: dab52a771d551ca40930496e8e13757a
+  - enabled: 1
+    path: Assets/Scenes/WinMenu.unity
+    guid: add927174c1530447a3e446d28a99eb8
+  m_configObjects: {}
