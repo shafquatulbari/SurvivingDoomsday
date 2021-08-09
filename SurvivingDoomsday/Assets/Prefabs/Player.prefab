@@ -377,6 +377,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deathText: {fileID: 0}
+  hint2Canvas: {fileID: 0}
+  hint1Canvas: {fileID: 0}
 --- !u!1 &7603954017944948652
 GameObject:
   m_ObjectHideFlags: 0
@@ -487,6 +489,10 @@ PrefabInstance:
       propertyPath: fpsController
       value: 
       objectReference: {fileID: 11400004}
+    - target: {fileID: 2119036862, guid: 841f0ca7a430c324d92c5583a9df3793, type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: 24300002, guid: 5581e5cb09646a94f9ad0daf62b4f52d, type: 2}
     - target: {fileID: 3884599470778992975, guid: 841f0ca7a430c324d92c5583a9df3793, type: 3}
       propertyPath: ammoSlot
       value: 
@@ -509,6 +515,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4000364799505174814}
     m_Modifications:
+    - target: {fileID: 807036547, guid: bceefb2a39f6db74d9bc9d006687b7f1, type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: 24300002, guid: 5581e5cb09646a94f9ad0daf62b4f52d, type: 2}
     - target: {fileID: 1251918648, guid: bceefb2a39f6db74d9bc9d006687b7f1, type: 3}
       propertyPath: fpsCamera
       value: 
@@ -587,6 +597,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4000364799505174814}
     m_Modifications:
+    - target: {fileID: 1648040644, guid: 06c813cf854462d4c86a7cd38f98536b, type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: 24300002, guid: 5581e5cb09646a94f9ad0daf62b4f52d, type: 2}
     - target: {fileID: 1853664624, guid: 06c813cf854462d4c86a7cd38f98536b, type: 3}
       propertyPath: fpsCamera
       value: 
