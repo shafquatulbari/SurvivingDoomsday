@@ -21,6 +21,7 @@ public class DeathCount : MonoBehaviour
         {
             hint1Canvas.enabled = false;
             hint2Canvas.enabled = true;
+            deathText.text = "";
         }
     }
     

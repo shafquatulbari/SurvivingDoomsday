@@ -9,6 +9,7 @@ public class Pickup : MonoBehaviour
     [SerializeField] float healthAmount = 40;
     [SerializeField] AmmoType ammoType;
     
+    
     private void OnTriggerEnter(Collider other) {
         if(other.gameObject.tag == "Player" && gameObject.tag == "Health")
         {
@@ -28,6 +29,11 @@ public class Pickup : MonoBehaviour
         {
             int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
             SceneManager.LoadScene(currentSceneIndex + 1);
+        }
+        else if(other.gameObject.tag == "Player" && gameObject.tag == "Boundary")
+        {
+            int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+            SceneManager.LoadScene(currentSceneIndex);
         }
     }
 }
